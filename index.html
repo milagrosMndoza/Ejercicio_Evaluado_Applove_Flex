@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>AppLove with Flexbox</title>
+	<!-- Importa fontAwesome -->
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<!-- Importa la fuente del proyecto (Open Sans de Google Fonts (https://fonts.google.com) -->
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400" rel="stylesheet">	<!-- Enlaza tu CSS reutilizable aquí (common.css) -->
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<!-- Enlaza tu CSS del proyecto aquí -->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+
+<body>
+		<nav class="menu flex-container">
+			<a href="#services" class="text-uppercase link">Services</a>
+			<a href="#work" class="text-uppercase link">Work</a>
+			<a href="#home" class="text-uppercase link">The team</a>
+			<div class="logo-container">
+				<img src="assets/images/logo-r.png" class="logo" alt="logo" width="70">
+			</div>
+		</nav>
+
+	<section id="home" class="flex-container">
+				<h2 >YOU JUST FOUND AN UNTILMATE</h2>
+				<h1 class="text-uppercase text-home mb-0">
+				we are applove from heart
+				</h1>
+				<p class="text-uppercase mt-0">
+				HANDCRAFTED - MODERN DESIGN - PIXEL PERFECT - PASSIONED DESIGN
+				</p>
+				<a href="#services" class="btn-home">View services</a>
+	</section>
+
+	<section id="services" class="flex-container">
+		<h2 class="text-uppercase text-services mt-0">
+			Services
+		</h2>
+		<h4>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tempor diam consequat dolor rhoncus, eu laoreet arcu ultrices. Sed dignissim, justo vel sollicitudin pellentesque, sem nulla ullamcorper metus. Nostrum.
+		</h4>
+			<div class="box-services">
+				<img src="assets/images/website.png" alt="website" width="200">
+				<h5 class="mb-0">USER INTERFACE DESIGN</h5>
+				<h6 class="m-0">Wireframing</h6>
+				<h6 class="m-0">Prototyping</h6>
+				<h6 class="m-0">Usability testing</h6>
+			</div>
+			<div class="box-services">
+				<img src="assets/images/img-1.png" alt="search" width="200">
+				<h5 class="mb-0">CONCEPT AND IDEAS</h5>
+				<h6 class="m-0">Conceptualizations</h6>
+				<h6 class="m-0">Digital Branding</h6>
+				<h6 class="m-0">Product Strategy</h6>
+			</div>
+			<div class="box-services">
+				<img src="assets/images/lapiz.png" alt="lapiz" width="200">
+				<h5 class="mb-0">DESIGN AND BRANDING</h5>
+				<h6 class="m-0">Interaction Design</h6>
+				<h6 class="m-0">Graphic Design</h6>
+				<h6 class="m-0">Identity testing</h6>
+			</div>
+	</section>
+    <section id="work">
+	
+        <div class="flex-container">
+            <h2 class="text-uppercase text-services mt-0">Work</h2>
+            <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam voluptatum atque ipsa consequatur ea ipsam ducimus, minus iste similique perspiciatis tempore sunt, amet. Iusto similique distinctio, sunt ad officia nobis!</h4> <img src="assets/images/hero.png" alt="Hero image" class="img-responsive">
+	
+            <!-- galeria -->
+            <!-- Cajas a repetir nueve veces -->
+            <div id="modalId" class="modal"> <span class="close">&times;</span> <img class="modal-content" id="img01"><a class="menor" href="">&#60;</a> <a class="mayor" href="">></a> </div>
+            <div class="row box-work">
+                <div class="col-4"> <img src="assets/images/img-1.jpg" width="80%" class="mostrar">
+                    <h4 class="titulo-fotos"> PROYECTO A</h4> </div>
+                <div class="col-4"> <img src="assets/images/img-2.jpg" width="80%" class="mostrar" alt="PROYECTO B">
+                    <h4 class="titulo-fotos"> PROYECTO B</h4> </div>
+                <div class="col-4"> <img src="assets/images/img-3.jpg" width="80%" class="mostrar" alt="PROYECTO C">
+                    <h4 class="titulo-fotos"> PROYECTO C</h4> </div>
+            </div>
+            <div class="row box-work">
+                <div class="col-4"> <img src="assets/images/img-4.jpg" width="80%" class="mostrar" alt="PROYECTO D">
+                    <h4 class="titulo-fotos"> PROYECTO D</h4> </div>
+                <div class="col-4"> <img src="assets/images/img-5.jpg" width="80%" class="mostrar" alt="PROYECTO E">
+                    <h4 class="titulo-fotos"> PROYECTO E</h4> </div>
+                <div class="col-4"> <img src="assets/images/img-6.jpg" width="80%" class="mostrar" alt="PROYECTO F">
+                    <h4 class="titulo-fotos"> PROYECTO F</h4> </div>
+            </div>
+            <div class="row box-work">
+                <div class="col-4"> <img src="assets/images/img-7.jpg" width="80%" class="mostrar" alt="PROYECTO G">
+                    <h4 class="titulo-fotos"> PROYECTO G</h4> </div>
+                <div class="col-4"> <img src="assets/images/img-8.jpg" width="80%" class="mostrar" alt="PROYECTO H">
+                    <h4 class="titulo-fotos"> PROYECTO H</h4> </div>
+                <div class="col-4"> <img src="assets/images/img-9.jpg" width="80%" class="mostrar" alt="PROYECTO I">
+                    <h4 class="titulo-fotos"> PROYECTO I</h4> </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="flex-container">
+            <p>&copy; Copyright</p>
+			<p>Made with by <i class="fa fa-heart" aria-hidden="true"></i> Laboratoria</p>
+            <small>Desarrollado por Milagros Mendoza</small> 
+        </div>
+    </footer>
+    <!-- aqui va el modal oculto -->
+    <div id="box-work-modal" class="hide"></div>
+    <!-- Enlaza tu JS aquí -->
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+
+</html>
