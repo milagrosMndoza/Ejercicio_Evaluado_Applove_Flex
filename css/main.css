@@ -22,7 +22,6 @@ body {
     line-height: 1.71429;
     background-color: #fff;
 }
-/*
 
 h1 {
     font-size: 56px;
@@ -49,7 +48,6 @@ h6 {
     font-size: 14px;
     margin: 1px;
 }
-*/
 
 img {
     vertical-align: middle;
@@ -214,6 +212,7 @@ h2.text-services {
 }
 
 /*estilos WORK*/
+/*
 #work{
 	background-color:white;
 	text-align: center;
@@ -225,7 +224,7 @@ h2.text-work {
 	font-size: 2.1em;
 }
 
-#work.flex-container{ /*esta linea hace que todo se ordene hacia abajo*/
+#work.flex-container{ esta linea hace que todo se ordene hacia abajo
 	justify-content: space-around;
 	flex-wrap: wrap;
 }
@@ -237,13 +236,9 @@ h2.text-work {
 .imagen-work{
 	padding-top: 30px;
 }
+*/
 
-.flotar{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
+
 
 /*estilos FOOTER*/
 footer{
@@ -257,7 +252,6 @@ footer{
 }
 
 
-/*
 #services {
     background-color: #f17c72;
     text-align: center;
@@ -293,7 +287,19 @@ footer {
    
   
 }
-
+footer .top {
+	padding: 50px 0;
+    background-color: #2C3E50;
+}
+footer .top small {
+	font-size: 110%;
+	line-height: 140%;
+	padding: 0 1em;
+}
+footer .bot {
+	padding: 25px 0;
+    background-color: #233140;
+}
 
 
 #work {
@@ -306,7 +312,6 @@ footer {
     display: inline-block;
     margin-top: 20px;
 }
-*/
 
 
 /*estilos modal*/
